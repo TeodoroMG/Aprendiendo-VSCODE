@@ -8,3 +8,5 @@ let tulipsValue = tulipPrice * numberOfTulips;
 let total = rosesValue + liliesValue + tulipsValue;
       
 console.log("Rose – unit price:", rosePrice, ", quantity:", numberOfRoses, ", value:", rosesValue); console.log("Lily – unit price:", lilyPrice, ", quantity:", numberOfLilies, ", value:", liliesValue); console.log("Tulip – unit price:", tulipPrice, ", quantity:", numberOfTulips, ", value:", tulipsValue); console.log("Total: ", total);
+let playa = 0
+console.log('rosePrice');
