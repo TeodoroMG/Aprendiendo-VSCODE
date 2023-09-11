@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    
+
     <title>Mi primera web </title>
+    <style>
+        table, th, td {
+            border: 1px solid black;"
+        }
+    </style>
 </head>
 
 <body>
+
+    <!--tr quiere decir table rows es decir filas de tablas
+         una fila   y th es una cabecera y se encuentra centrados 
+         respecto a la columna -->
+
+    <table>
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+
+
+
+        </tr>
+
+        <!--td se utiliza para definir
+             elemento standart dentro de las celdas
+              de nuestra tabla y si se repite generan
+               mas articulos o 
+               productos hacia abajo en la celda
+            se encuentra alineados a la izquierda -->
+        <tr>
+            <td>Hola beats</td>
+            <td>Gratis</td>
+        </tr>
+        <tr>
+            <td>videojuego </td>
+            <td>10,95$</td>
+        </tr>
+        <tr>
+            <td>videojuego Premium con asset incluidos  </td>
+            <td>99,95$</td>
+        </tr>
+
+
+
+    </table>
 
     <!-- esto es una lista no ordenada -->
     <ul>
@@ -23,14 +65,14 @@
         <li>Elemento 4</li>
         <li>
             <ol>
-              <li style="list-style-type: lower-roman;">Sub elemento 1 </li>
-              <li  style="list-style-type: lower-roman;">Sub elemento 2</li>     
-              <li style="list-style-type: lower-roman;">Sub elemento 3</li>     
-              <li  style="list-style-type: lower-roman;">Sub elemento 4</li>     
+                <li style="list-style-type: lower-roman;">Sub elemento 1 </li>
+                <li style="list-style-type: lower-roman;">Sub elemento 2</li>
+                <li style="list-style-type: lower-roman;">Sub elemento 3</li>
+                <li style="list-style-type: lower-roman;">Sub elemento 4</li>
 
             </ol>
         </li>
-        
+
     </ol>
 
 
@@ -38,44 +80,44 @@
 
 
 
-<!-- tipos de rellenos(form)-->
+    <!-- tipos de rellenos(form)-->
     <form>
         <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Nombre"/> 
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
     </form><br>
     <form>
         <label for="nombre">Apellido</label>
-        <input type="text" id="apellido" name="apellido" placeholder="Rellenar apellido"/> 
+        <input type="text" id="apellido" name="apellido" placeholder="Rellenar apellido" />
     </form><br>
 
     <form>
         <label for="nombre">Nombre</label>
-        <input type="submit" id="nombre" name="nombre" placeholder="Nombre"/> 
+        <input type="submit" id="nombre" name="nombre" placeholder="Nombre" />
     </form><br>
 
     <form>
         <label for="nombre">Nombre</label>
-        <input type="email" id="email" name="nombre" placeholder="Nombre"/> 
+        <input type="email" id="email" name="nombre" placeholder="Nombre" />
     </form><br>
 
     <form>
         <label for="nombre">password</label>
-        <input type="password" id="nombre" name="nombre" placeholder="Nombre"/> 
-    </form><br>
-    
-    <form>
-        <label for="nombre">Nombre</label>
-        <input type="radio" id="nombre" name="nombre" placeholder="Nombre"/> 
+        <input type="password" id="nombre" name="nombre" placeholder="Nombre" />
     </form><br>
 
     <form>
         <label for="nombre">Nombre</label>
-        <input type="checkbox" id="nombre" name="nombre" placeholder="Nombre"/> 
+        <input type="radio" id="nombre" name="nombre" placeholder="Nombre" />
+    </form><br>
+
+    <form>
+        <label for="nombre">Nombre</label>
+        <input type="checkbox" id="nombre" name="nombre" placeholder="Nombre" />
     </form><br>
 
     <form action="/formulario" method="post">
         <label for="nombre">Nombre</label>
-        <input type="file" id="nombre" name="nombre" placeholder="Nombre"/> <br>
+        <input type="file" id="nombre" name="nombre" placeholder="Nombre" /> <br>
         <label for="comentario">Comentario</label><br>
         <textarea rows="10" cols="50" id=" comentario" placeholder="ingrese comentario" name="comentario"></textarea>
         <button type="button">tipo botón</button>
@@ -88,7 +130,7 @@
         <!-- el boton tipo button es mucho mas personalizable-->
 
     </form><br>
-    
+
 
     <h1>Mi primer heading</h1>
     <h2>Mi segundo heading</h2>
@@ -100,18 +142,19 @@
     <p> La mejor separacion de linea </p>
     <hr>
     <h2> otro titulo </h2>
-    <p>   Este texto es <span style="color: blue;">mucho mas largo </span> para mostrar
-         la etiqueta de span </p>
+    <p> Este texto es <span style="color: blue;">mucho mas largo </span> para mostrar
+        la etiqueta de span </p>
 
-    <p>   Este texto es <span style="color: blue;"> mucho y mucho <br> mas largo</span> para mostrar
-            la etiqueta de span </p>
+    <p> Este texto es <span style="color: blue;"> mucho y mucho <br> mas largo</span> para mostrar
+        la etiqueta de span </p>
 
 
     <!-- escribir comentarios y no va a aparecer en el explorador  -->
     <a target="_blank" href="https://www.google.co.cr"> Ir a google </a>
-        
-    <img src="img/apex-legends-main-menu.jpg" height="600"/>
-   
+
+    <img src="img/apex-legends-main-menu.jpg" height="600" />
+
 
 </body>
+
 </html>
