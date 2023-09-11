@@ -4,7 +4,42 @@
     
     <title>Mi primera web </title>
 </head>
+
 <body>
+
+    <!-- esto es una lista no ordenada -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <!-- esto es una lista  ordenada -->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+              <li style="list-style-type: lower-alpha;">Sub elemento 1 </li>
+              <li  style="list-style-type: lower-alpha;">Sub elemento 2</li>     
+              <li style="list-style-type: lower-alpha;">Sub elemento 3</li>     
+              <li  style="list-style-type: lower-alpha;">Sub elemento 4</li>     
+     
+
+
+            </ol>
+        </li>
+        
+    </ol>
+
+
+
+
+
+
 <!-- tipos de rellenos(form)-->
     <form>
         <label for="nombre">Nombre</label>
@@ -45,7 +80,15 @@
         <input type="file" id="nombre" name="nombre" placeholder="Nombre"/> <br>
         <label for="comentario">Comentario</label><br>
         <textarea rows="10" cols="50" id=" comentario" placeholder="ingrese comentario" name="comentario"></textarea>
-        <input type="submit" />
+        <button type="button">tipo botón</button>
+        <button type="reset">tipo reset</button>
+        <button type="submit">tipo submit</button>
+
+        <!-- el boton tipo submit envia la informacion
+             a donde queremos en form action 
+             segun el metodo indicado-->
+        <!-- el boton tipo button es mucho mas personalizable-->
+
     </form><br>
     
 
